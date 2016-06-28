@@ -14,7 +14,7 @@ The scripts are designed to be run as Script tools through ArcMap's geoprocessin
  - one to enter alias-name pairs for data source paths (e.g. connection strings to databases can be formatted in many ways but actually connect to identical databases)
 + one geodatabase toolbox with
  - four tools (made form the python scripts)
- - one model that shows an example of how the scripts can be executed in sequence against 5 ArcGIS server sites (add or remove sites as needed)
+ - one model that shows an example of how the scripts can be executed in sequence against 5 ArcGIS server sites (add or remove sites as needed. Instead of removing you can also point any writer.py tool except for the first one to an empty folder directory. This is the quickest way to re-use the model.)
 
 Note:
 + you'll need access to the ArcGIS Server site's file storage (specifically, the folder .../directories/arcgissystem/arcgisinput because that's where the mxd's are stored. Alternatively you could run the tools against a copy of this folder.
